@@ -3,5 +3,6 @@ pandas
 numpy
 scikit-learn
 scikit-surprise
+surprise
 matplotlib
 seaborn
