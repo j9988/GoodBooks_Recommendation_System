@@ -6,6 +6,8 @@ from surprise import Dataset, Reader, SVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+numpy._import_array()
+
 # --- Load Data ---
 @st.cache_data
 def load_data():
