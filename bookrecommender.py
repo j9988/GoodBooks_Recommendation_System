@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+numpy._import_array()
+
 from collections import defaultdict
 from surprise import Dataset, Reader, SVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-numpy._import_array()
+
 
 # --- Load Data ---
 @st.cache_data
